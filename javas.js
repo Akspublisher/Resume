@@ -1,7 +1,7 @@
 //question
 
 const questions = [
-/*{
+{
 question: "Q.  How use a function  on array for sort?",
 options: ["arr.sort() for string & arr.sort((a, b) => a - b); use for compare", "Ram"],
 correct: "mount"},
@@ -239,7 +239,7 @@ options: [" ", "Ram"],
 correct: "Ram"},
 {question: "Q.  Can you explain the difference between dot notation and square bracket [] notation when accessing object properties? When would you use one over the other in javascript?",
 options: [" ", "Ram"],
-correct: "Ram"},*/
+correct: "Ram"},
 {question: "Q.  Explain about profit loss and % ?",
 options: ["Profit = SP - CP, Profit % = (profit/CP) * 100, Loss = CP -SP, Loss % = (Loss/CP) * 100, x - loss/100 * x = SP ", "Ram"],
 correct: "Ram"},
