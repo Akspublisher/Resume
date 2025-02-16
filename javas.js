@@ -356,7 +356,14 @@ options: ["let secSumDiag= 0; for (let i=0; i<n; i++){ secSumDiag = secSumDiag+m
 correct: "Ram"},
 {question: "Q.  Counting sort code Template (CS has a TC of O(n+k) ?",
 options: ["function countingSort(arr) { const maxVal = Math.max(...arr); const countArray = Array(maxVal +1).fill(0); // count occurences of each value; for(const num of arr){countArray[num]++;} //cal cumulative counts; for (let i=0; i< countArray.length; i++){ countArray[i] += countArray[i+1]; } // build sorted array ; const sortedArr = Array(arr.length); for(const num of arr){ sortedArr[countArray[num]-1] = num; countArray[num]--;} return sortedArr; } console.log(countingSort(arr));         ", "Ram"],
-correct: "Ram"}
+correct: "Ram"},
+{question: "Q.  Tranform and reverse for 90 degree of matrix ?",
+options: ["matrix[i][j] = matrix[j][i] or and fixed for rowwise outterloop i and innerloop j then rowwise matrix[i][j] and columnwise matrix[j][i]  ", "Ram"],
+correct: "Ram"},
+{question: "Q.  For time complexity in two loop ?",
+options: ["if one 1st loop run for <n time and second loop <5 or 10 or 20 number then TC = 5 x O(n) and 5 is constent the O(n)  ", "Ram"],
+correct: "Ram"},
+	
 
 
 
